@@ -1,0 +1,15 @@
+# Renderer (scenewx/)
+numpy
+opencv-python          # or opencv-contrib-python; see "Corrected depth and OpenCV" in README.md
+torch                  # scenewx_dataset.py, depth estimation, evaluation
+transformers           # Depth Anything V2 (depth.py) and SegFormer (evaluation)
+pillow
+
+# Evaluation
+scipy
+
+# Figures (also need a LaTeX installation for text.usetex)
+matplotlib
+
+# Training and NAFNet evaluation additionally need a NAFNet checkout, which provides `basicsr`:
+#   https://github.com/megvii-research/NAFNet  (install its own requirements and run `python setup.py develop --no_cuda_ext`)

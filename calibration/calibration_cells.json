@@ -1,0 +1,272 @@
+{
+ "_sample_frames": [
+  "frankfurt_000000_000294",
+  "frankfurt_000000_000576",
+  "frankfurt_000000_001016",
+  "frankfurt_000000_001236",
+  "frankfurt_000000_001751",
+  "frankfurt_000000_002196",
+  "frankfurt_000000_002963",
+  "frankfurt_000000_003025",
+  "frankfurt_000000_003357",
+  "frankfurt_000000_003920",
+  "frankfurt_000000_004617",
+  "frankfurt_000000_005543"
+ ],
+ "_sample_scale": 0.5,
+ "fog": {
+  "light": {
+   "target_severity": 0.06405392910043399,
+   "target_source": "full cell at Sakaridis beta 0.005 (MOR 599 m)",
+   "cells": {
+    "base": {
+     "beta": 0.005,
+     "optical_depth": 0.10983974584580483,
+     "t": 0.8959777079419285
+    },
+    "P1": {
+     "beta": 0.004999929640703214
+    },
+    "full": {
+     "beta": 0.005
+    },
+    "P4": {
+     "beta": 0.005048571580007747
+    },
+    "scrambled": {
+     "beta": 0.004214394106525662
+    },
+    "noise": {
+     "sigma": 0.16707734169941102
+    },
+    "identity": {}
+   }
+  },
+  "moderate": {
+   "target_severity": 0.11760600594182809,
+   "target_source": "full cell at Sakaridis beta 0.01 (MOR 300 m)",
+   "cells": {
+    "base": {
+     "beta": 0.01,
+     "optical_depth": 0.2121632310964013,
+     "t": 0.8088326601485655
+    },
+    "P1": {
+     "beta": 0.009999859281406428
+    },
+    "full": {
+     "beta": 0.01
+    },
+    "P4": {
+     "beta": 0.010110223590474891
+    },
+    "scrambled": {
+     "beta": 0.008357922067582745
+    },
+    "noise": {
+     "sigma": 0.3126003033609122
+    },
+    "identity": {}
+   }
+  },
+  "heavy": {
+   "target_severity": 0.2633614105482896,
+   "target_source": "full cell at Sakaridis beta 0.03 (MOR 100 m)",
+   "cells": {
+    "base": {
+     "beta": 0.03,
+     "optical_depth": 0.5586445596152875,
+     "t": 0.5719838286371931
+    },
+    "P1": {
+     "beta": 0.02999957784421928
+    },
+    "full": {
+     "beta": 0.03
+    },
+    "P4": {
+     "beta": 0.03054826806152957
+    },
+    "scrambled": {
+     "beta": 0.02434570499041411
+    },
+    "noise": {
+     "sigma": 0.8582367385439584
+    },
+    "identity": {}
+   }
+  }
+ },
+ "snow": {
+  "light": {
+   "target_severity": 0.0151,
+   "target_source": "WeatherBench snow (real, sprayed)",
+   "cells": {
+    "base": {
+     "strength": 0.03275657948493684
+    },
+    "P1": {
+     "strength": 0.03336900925476224
+    },
+    "P2": {
+     "strength": 0.11915131544960911
+    },
+    "full": {
+     "strength": 0.12774324379274002
+    },
+    "P4": {
+     "strength": 0.12903059377586615
+    },
+    "scrambled": {
+     "strength": 0.11125884838844113
+    },
+    "noise": {
+     "sigma": 0.03567487351623698
+    },
+    "identity": {}
+   }
+  },
+  "moderate": {
+   "target_severity": 0.0361,
+   "target_source": "WeatherBench snow (real, sprayed)",
+   "cells": {
+    "base": {
+     "strength": 0.078611495615758
+    },
+    "P1": {
+     "strength": 0.07995876567090669
+    },
+    "P2": {
+     "strength": 0.2964804319391504
+    },
+    "full": {
+     "strength": 0.3233777382070976
+    },
+    "P4": {
+     "strength": 0.3268918028743964
+    },
+    "scrambled": {
+     "strength": 0.2773178953980086
+    },
+    "noise": {
+     "sigma": 0.09088700990658569
+    },
+    "identity": {}
+   }
+  },
+  "heavy": {
+   "target_severity": 0.081,
+   "target_source": "WeatherBench snow (real, sprayed)",
+   "cells": {
+    "base": {
+     "strength": 0.18756585136845233
+    },
+    "P1": {
+     "strength": 0.19161657154945078
+    },
+    "P2": {
+     "strength": 0.7353130806075756
+    },
+    "full": {
+     "strength": 0.8298780004561285
+    },
+    "P4": {
+     "strength": 0.8396563628902903
+    },
+    "scrambled": {
+     "strength": 0.6965221061026148
+    },
+    "noise": {
+     "sigma": 0.21321106434650333
+    },
+    "identity": {}
+   }
+  }
+ },
+ "rain": {
+  "light": {
+   "target_severity": 0.028,
+   "target_source": "GT-RAIN (real)",
+   "cells": {
+    "base": {
+     "strength": 0.10676123454103793
+    },
+    "P1": {
+     "strength": 0.10897492831048505
+    },
+    "P2": {
+     "strength": 0.28177495969218186
+    },
+    "full": {
+     "strength": 0.2992010408501944
+    },
+    "P4": {
+     "strength": 0.3031996826584851
+    },
+    "scrambled": {
+     "strength": 0.26728555512762203
+    },
+    "noise": {
+     "sigma": 0.06915912214875318
+    },
+    "identity": {}
+   }
+  },
+  "moderate": {
+   "target_severity": 0.0428,
+   "target_source": "GT-RAIN (real)",
+   "cells": {
+    "base": {
+     "strength": 0.16391464508788167
+    },
+    "P1": {
+     "strength": 0.16726115844723624
+    },
+    "P2": {
+     "strength": 0.4358210414878982
+    },
+    "full": {
+     "strength": 0.4643668209463222
+    },
+    "P4": {
+     "strength": 0.4707345257926893
+    },
+    "scrambled": {
+     "strength": 0.4145612260974583
+    },
+    "noise": {
+     "sigma": 0.10906451864208853
+    },
+    "identity": {}
+   }
+  },
+  "heavy": {
+   "target_severity": 0.0817,
+   "target_source": "GT-RAIN (real)",
+   "cells": {
+    "base": {
+     "strength": 0.3175700225062783
+    },
+    "P1": {
+     "strength": 0.3242662379759665
+    },
+    "P2": {
+     "strength": 0.8602047486430496
+    },
+    "full": {
+     "strength": 0.9249744251434237
+    },
+    "P4": {
+     "strength": 0.9385080802059981
+    },
+    "scrambled": {
+     "strength": 0.8251475871682995
+    },
+    "noise": {
+     "sigma": 0.21510720287521795
+    },
+    "identity": {}
+   }
+  }
+ }
+}

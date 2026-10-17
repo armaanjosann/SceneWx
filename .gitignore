@@ -1,0 +1,35 @@
+# outputs of examples, figures, calibration re-runs and evaluation
+outputs/
+results/
+experiments/
+tb_logger/
+logs/
+*.log
+
+# data and caches (Cityscapes and the other datasets may not be redistributed)
+data/
+datasets/
+depth_cache/
+depth_metric/
+*.npy
+*.tif
+
+# model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
